@@ -1,0 +1,199 @@
+.poster{
+	height: 100px;
+	width: 110px;
+}
+
+.music-container
+{
+	width: 350px;
+	display: block;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.music-img
+{
+	height: 265px;
+	background-size: cover;
+	background-position: center;
+	background-image: linear-gradient(rgba(0,0,0,0.5) ,rgba(0,0,0,0.5)) ,url('img2.png');
+	color: #fff;
+}
+
+.music-header
+{
+	border-bottom: 1px solid #555;
+	height: 50px;
+}
+.music-header .nextDisplay
+{
+	float: left;
+	margin-top: 15px;
+	margin-left: 10px;
+	cursor: pointer;
+}
+.music-header .fa-list-ul
+{
+	float: right;
+	margin-top: 15px;
+	margin-right: 10px;
+	cursor: pointer;
+}
+.music-header .title
+{
+	width: 250px;
+	height: 30px;
+	position: absolute;
+	margin-left: 30px;
+	margin-top: 10px;
+	text-align: center;
+	padding-left: 10px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+.inner-img
+{
+	padding-top: 60px;
+}
+.inner-img img
+{
+	border-radius: 50%;
+	animation: rotate 10s linear infinite;
+	margin-bottom: 30px;
+}
+@keyframes rotate
+{
+	100%{transform: rotate(360deg);}
+}
+
+marquee
+{
+	font-size: 12px;
+	margin-top: 25px;
+}
+.music-controler
+{
+	background-image: linear-gradient(#ff0000,
+		#222);
+}
+.music-bar .progress
+{
+	height: 10px !important;
+	border-radius: 0 !important;
+	background-color: #000;
+}
+.music-bar .progress-bar
+{
+	width: 0%;
+	background-color: #fff;
+}
+.socila-bar
+{
+	border-bottom: 1px solid #ff2424;
+	height: 50px;
+}
+.socila-bar .fa
+{
+	padding: 15px 26px;
+	color: #999;
+	font-size: 15px;
+	cursor: pointer;
+}
+.control-bar .fa
+{
+	display: inline-block;
+	margin: 0 5px;
+	cursor: pointer;
+}
+.control-bar .fa-play
+{
+	width: 60px;
+	height: 60px;
+	padding-top: 14px;
+	color: #fff;
+	background-color: #de1a1a;
+	border-radius: 50%;
+	font-size: 30px;
+}
+.control-bar .fa-step-backward, .control-bar
+.fa-step-forward
+{
+	width: 40px;
+	height: 40px;
+	padding-top: 12px;
+	color: #ccc;
+	background-color: #ff3636;
+	border-radius: 50%;
+	font-size: 15px;
+}
+.control-bar .fa-retweet, .control-bar
+.fa-random
+{
+	width: 50px;
+	height: 50px;
+	padding-top: 12px;
+	color: #ccc;
+	font-size: 20px;
+}
+.user-menu 
+{
+	height: 60px;
+	font-family: sans-serif;
+	background: #000;
+	line-height: 25px; 
+}
+.user-menu ul 
+{
+	display: inline-block;
+	padding: 12px 0;
+	list-style-type: none;
+}
+.user-menu ul li
+{
+	display: inline-block;
+	padding: 0px 25px;
+	color: #999;
+}
+.user-menu ul li a
+{
+	color : #999;
+	font-size: 10px;
+	text-decoration: none;
+}
+.user-menu .fa
+{
+	color: #999;
+	font-size: 22px;
+}
+.active .fa
+{
+	color: #fff;
+}
+.active a p
+{
+	color: #fff;
+}
+footer
+{
+	background-color:rgba(33, 33, 33, 0.9);
+}
+.current-time
+{
+	color: #fff;
+	float: left;
+	font-size: 10px;
+}
+.duration
+{
+	color: #fff;
+	float: right;
+	font-size: 10px;
+}
+.song-slider
+{
+	color: blue;
+	width: 350px;
+}
